@@ -1,0 +1,172 @@
+html {
+	background-image: linear-gradient(to bottom, white, lightpink);
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.title {
+	font-family: 'Zeyada', cursive;
+	text-align: center;
+	font-size: 550%;
+	font-weight: bold;
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+
+/*group*/
+
+.groupPic {
+	width: 50%;
+	height: auto;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 3%;
+	border-radius: 10%;
+}
+
+.groupInfo {
+	font-family: 'DynaPuff', system-ui;
+	text-align: center;
+	font-size: 175%;
+	margin-right: 4%;
+}
+
+.aligned {
+    display: flex;
+    align-items: center;
+}
+
+/*discography*/
+
+.discography {
+	font-family: 'Zeyada', cursive;
+	text-align: center;
+	font-size: 350%;
+	font-weight: bold;
+	margin-top: 5%;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+}
+
+.container {
+	position: relative;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+	margin-top: 0%;
+}
+
+.left {
+	float: left;
+	margin-left: 6%;
+}
+
+.albumTitle {
+	padding: 5%;
+	font-family: 'DynaPuff', system-ui;
+	text-align: center;
+	font-size: 175%;
+}
+
+.gods {
+	opacity: 1;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 5%;
+}
+
+.getup {
+	opacity: 1;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 5%;
+}
+
+.zero {
+	opacity: 1;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 5%;
+}
+
+.omg {
+	opacity: 1;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 5%;
+}
+
+.ditto {
+	opacity: 1;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 5%;
+}
+
+.newjeans {
+	opacity: 1;
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	border-radius: 5%;
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.container:hover .gods {
+	opacity: 0.3;
+}
+
+.container:hover .getup {
+	opacity: 0.3;
+}
+
+.container:hover .zero {
+	opacity: 0.3;
+}
+
+.container:hover .omg {
+	opacity: 0.3;
+}
+
+.container:hover .ditto {
+	opacity: 0.3;
+}
+
+.container:hover .newjeans {
+	opacity: 0.3;
+}
+
+.container:hover .middle {
+	opacity: 1;
+}
+
