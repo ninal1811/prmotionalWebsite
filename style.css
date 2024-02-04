@@ -1,16 +1,17 @@
 html {
-	background-image: linear-gradient(to bottom, white, lightpink);
+	background-image: linear-gradient(to bottom, white, #9fb8d2, #7e93ba);
 	background-size: cover;
 	min-height: 100vh;
 }
 
 .title {
-	font-family: 'Zeyada', cursive;
+	font-family: 'Agbalumo', system-ui;
 	text-align: center;
-	font-size: 550%;
+	font-size: 500%;
 	font-weight: bold;
 	margin-top: 4%;
 	margin-bottom: 2%;
+	color: #284377;
 }
 
 /*group*/
@@ -27,8 +28,9 @@ html {
 .groupInfo {
 	font-family: 'DynaPuff', system-ui;
 	text-align: center;
-	font-size: 175%;
+	font-size: 150%;
 	margin-right: 4%;
+	color: #284377;
 }
 
 .aligned {
@@ -39,15 +41,22 @@ html {
 /*discography*/
 
 .discography {
-	font-family: 'Zeyada', cursive;
+	font-family: 'Agbalumo', system-ui;
 	text-align: center;
-	font-size: 350%;
+	font-size: 275%;
 	font-weight: bold;
 	margin-top: 5%;
+	color: #4a5f90;
+	margin-bottom: 5%;
+}
+
+a:link {
+	color: #284377;
+	background-color: transparent;
 }
 
 a:visited {
-  color: blue;
+  color: #284377;
   background-color: transparent;
 }
 
@@ -56,7 +65,7 @@ a:visited {
 	width: 25%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 	margin-top: 0%;
 }
 
